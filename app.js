@@ -1,7 +1,7 @@
 let action= process.argv[2];
 let accionesTareas = require("./tareas");
 switch(action){
-    //Listado       
+    //Listado   
     case 'listar':
     case 'Listar':
         let tareas = accionesTareas.leer();
